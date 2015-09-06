@@ -1,2 +1,2 @@
-# snippt: CSS, SCSS & LESS
+# Snippt: CSS, SCSS & LESS
 All about css
