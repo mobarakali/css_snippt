@@ -40,3 +40,31 @@
     text-shadow: 0 0 1px rgba(0, 0, 0, .35);
     z-index: 510;
 }
+
+.nav >li>a:focus,
+.nav > li:hover>a{
+    background: #4b4441;
+}
+
+.nav >li:first-child>a{
+    border-left: none;
+    border-radius: 3px 0 0 3px;
+}
+/* search form  */
+.nav-search input[type='text']{
+    background: #372f2b;
+    color: #999;
+    display:block;
+    float: left;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 15px 0;
+    text-shadow: 0 0 1px rgba(0,0,0,.35);
+    width: 0;
+    transition: all .3s ease 1s;
+}
+
+.nav-search input[type='text']:focus,
+.nav-search:hover input[type='text']{
+    background: #4b4441;
+}
