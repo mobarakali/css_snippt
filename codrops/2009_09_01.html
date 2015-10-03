@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 big style fieldset registration form</title>
+    <style>
+        form {
+            display: inline-block;
+            border:2px solid #cccccc;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            border-radius: 15px;
+            -webkit-box-shadow: 0 1px 2px  rgba(0,0,0, .5);
+            -moz-box-shadow: 0 1px 2px  rgba(0,0,0, .5);
+            box-shadow: 0 1px 2px  rgba(0,0,0, .5);
+        }
+    </style>
+</head>
+<!--re coded following html5 rules-->
+<body>
+<h1>CSS3 big style fieldset registration form</h1>
+
+<img src="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2009/09/registration_form.png" alt="">
+<!-- example image from source site -->
+<hr>
+<form>
+    <fieldset>
+        <legend>About you</legend>
+        <label>First name</label>
+        <input type="text" maxlength="100" value=""/>
+        <label>Last name</label>
+        <input type="text" maxlength="100" value=""/>
+        <label>Birthdate</label>
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+        <select>
+            <option value="1">January</option>
+            <option value="2">February</option>
+        </select>
+        <select>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Account details</legend>
+        <label>E-Mail</label>
+        <input type="text" maxlength="120" value=""/>
+        <label>Password</label>
+        <input type="password" maxlength="20"/>
+    </fieldset>
+    <fieldset>
+        <input type="button">Register</input>
+    </fieldset>
+</form>
+
+</body>
+</html>
